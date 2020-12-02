@@ -1,0 +1,6 @@
+male   23 John
+female 31 Mary
+female 37 Sally
+male   19 Ted
+male   41 Jeff
+female 25 Cindy
