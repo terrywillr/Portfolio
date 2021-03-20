@@ -1,0 +1,24 @@
+#ifndef RELATION_H
+#define RELATION_H
+#include "tuple.h"
+#include <iostream>
+#include <set>
+
+class Relation
+{
+public:
+	Relation() {}
+	~Relation() {}
+
+	void setScheme(Scheme s);
+	void addTuple(Tuple t);
+	std::string toString();
+	Relation select(int pos, std::string value);
+	Relation select(int pos1, int pos2);
+	Relation project(std::vector<int> pos);
+
+	std::set<Tuple> tupleList;
+	Scheme myScheme;
+};
+
+#endif

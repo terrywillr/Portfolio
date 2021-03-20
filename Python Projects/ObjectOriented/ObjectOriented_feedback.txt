@@ -1,0 +1,145 @@
+09/18/20 20:12
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+ValueError: operands could not be broadcast together with shapes (3,) (2,) 
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+ComplexNumber.__mul__() failed on real part
+	Correct response: 281.0
+	Student response: 121
+ComplexNumber.__div__() failed on real part
+	Correct response: 0.870185
+	Student response: 1.059914
+Score += 13
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 38/50 = 76.0%
+
+Comments: You are passing in a max_size of 2 into the constructor of Jetpack instead of passing in the variable max_size.
+If someone calls Jetpack(max_size=3), you still create a Jetpack with max_size=2.
+-------------------------------------------------------------------------------
+
+09/19/20 14:34
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+ComplexNumber.__mul__() failed on real part
+	Correct response: -1911.0
+	Student response: -183
+ComplexNumber.__div__() failed on real part
+	Correct response: -0.220952
+	Student response: -0.34172
+Score += 13
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 48/50 = 96.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+
+09/22/20 12:55
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+ComplexNumber.__mul__() failed on real part
+	Correct response: 998.0
+	Student response: 1143
+ComplexNumber.__div__() failed on real part
+	Correct response: -0.053834
+	Student response: 0.006525
+Score += 13
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 48/50 = 96.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+
+09/23/20 11:58
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+ComplexNumber.__mul__() failed on real part
+	Correct response: -356.0
+	Student response: 253
+ComplexNumber.__div__() failed on real part
+	Correct response: -0.79473
+	Student response: -0.753081
+Score += 13
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 48/50 = 96.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+
+09/29/20 09:51
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+ComplexNumber.__mul__() failed on real part
+	Correct response: -1846.0
+	Student response: -1363
+ComplexNumber.__div__() failed on real part
+	Correct response: 1.728665
+	Student response: 2.319475
+Score += 13
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 48/50 = 96.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+

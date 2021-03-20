@@ -1,0 +1,45 @@
+09/28/20 18:58
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 6 (10 points):
+NotImplementedError: Problem 6 Incomplete
+
+Coverage (20 points):
+Syntax Error
+Score += 0
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 20/50 = 40.0%
+
+-------------------------------------------------------------------------------
+
+10/02/20 15:48
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 6 (10 points):
+Score += 10
+
+Coverage (20 points):
+Score += 20
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 50/50 = 100.0%
+
+Excellent!
+
+-------------------------------------------------------------------------------
+

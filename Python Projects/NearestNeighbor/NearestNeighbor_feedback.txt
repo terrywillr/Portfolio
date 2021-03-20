@@ -1,0 +1,166 @@
+10/26/20 19:09
+
+Problem 1 (5 points):
+IndexError: arrays used as indices must be of integer (or boolean) type
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+kdt.insert() failed for data set
+[[2 3 4]
+ [5 6 7]
+ [7 1 9]
+ [3 4 8]]
+	Correct response:
+'KDT(k=3)\n[2 3 4]\tpivot = 0\n[5 6 7]\tpivot = 1\n[7 1 9]\tpivot = 2\n[3 4 8]\tpivot = 0'
+	Student response:
+'KDT(k=3)\n[2 3 4]\tpivot = 0\n[5 6 7]\tpivot = 1\n[3 4 8]\tpivot = 2\n[7 1 9]\tpivot = 2'
+kdt.insert() failed for data set
+[[5 5]
+ [2 4]
+ [8 3]
+ [3 2]
+ [4 6]
+ [1 7]
+ [6 8]
+ [7 9]
+ [9 1]]
+	Correct response:
+'KDT(k=2)\n[5 5]\tpivot = 0\n[2 4]\tpivot = 1\n[8 3]\tpivot = 1\n[3 2]\tpivot = 0\n[4 6]\tpivot = 0\n[9 1]\tpivot = 0\n[6 8]\tpivot = 0\n[1 7]\tpivot = 1\n[7 9]\tpivot = 1'
+	Student response:
+'KDT(k=2)\n[5 5]\tpivot = 0\n[2 4]\tpivot = 1\n[8 3]\tpivot = 1\n[1 7]\tpivot = 0\n[3 2]\tpivot = 0\n[6 8]\tpivot = 0\n[9 1]\tpivot = 0\n[4 6]\tpivot = 1\n[7 9]\tpivot = 1'
+ValueError: Data is already in tree
+
+Problem 4 (10 points):
+
+	_student_nn() failed: incorrect nearest neighbor
+	Correct response:
+[0.307 0.147 0.797 0.998 0.828 0.802 0.163 0.094 0.101 0.692]
+	Student response:
+[0.157 0.832 0.01  0.594 0.791 0.583 0.706 0.118 0.473 0.491]
+
+	_student_nn() failed: incorrect minimum distance
+	Correct response:
+1.1137724099091268
+	Student response:
+1.4849167547369693
+
+	_student_nn() failed: incorrect nearest neighbor
+	Correct response:
+[0.018 0.717 0.194 0.727 0.137 0.141 0.702 0.205 0.122 0.753]
+	Student response:
+[0.36  0.969 0.437 0.981 0.432 0.502 0.542 0.272 0.968 0.65 ]
+
+	_student_nn() failed: incorrect minimum distance
+	Correct response:
+0.6602687052338987
+	Student response:
+0.885596132639682
+
+	_student_nn() failed: incorrect nearest neighbor
+	Correct response:
+[0.596 0.125 0.421 0.167 0.926 0.376 0.779 0.649 0.709 0.393 0.344 0.842
+ 0.34  0.323 0.354 0.61  0.15  0.409 0.398 0.781 0.413 0.995 0.408 0.855
+ 0.865 0.666 0.188 0.495 0.074 0.235 0.896 0.144 0.394 0.876 0.715 0.953
+ 0.65  0.809 0.15  0.495 0.106 0.773 0.99  0.344 0.404 0.027 0.688 0.273
+ 0.063 0.793 0.31  0.434 0.131 0.75  0.239 0.437 0.839 0.114 0.111 0.008
+ 0.64  0.332 0.67  0.539 0.436 0.334 0.145 0.4   0.673 0.929 0.799 0.472
+ 0.122 0.623 0.427 0.748 0.584 0.127 0.758 0.433 0.702 0.517 0.08  0.771
+ 0.558 0.629 0.666 0.424 0.401 0.74  0.189 0.112 0.649 0.695 0.74  0.297
+ 0.475 0.466 0.433 0.377]
+	Student response:
+[0.419 0.13  0.675 0.214 0.442 0.082 0.223 0.545 0.612 0.892 0.705 0.059
+ 0.491 0.917 0.639 0.672 0.381 0.258 0.193 0.923 0.709 0.627 0.555 0.292
+ 0.156 0.65  0.092 0.751 0.226 0.222 0.899 0.106 0.166 0.825 0.449 0.04
+ 0.683 0.299 0.816 0.925 0.299 0.543 0.899 0.198 0.397 0.756 0.138 0.646
+ 0.345 0.657 0.647 0.399 0.154 0.892 0.669 0.924 0.791 0.191 0.733 0.632
+ 0.411 0.659 0.629 0.274 0.214 0.072 0.302 0.332 0.973 0.614 0.322 0.693
+ 0.841 0.421 0.345 0.433 0.19  0.876 0.039 0.891 0.028 0.433 0.01  0.757
+ 0.683 0.077 0.385 0.514 0.491 0.189 0.459 0.187 0.454 0.73  0.813 0.356
+ 0.422 0.248 0.706 0.417]
+
+	_student_nn() failed: incorrect minimum distance
+	Correct response:
+3.471182692815174
+	Student response:
+3.625430582440029
+
+	_student_nn() failed: incorrect nearest neighbor
+	Correct response:
+[0.907 0.634 0.076 0.983 0.783 0.923 0.582 0.318 0.462 0.176 0.454 0.361
+ 0.528 0.308 0.8   0.196 0.029 0.436 0.482 0.239 0.335 0.228 0.784 0.413
+ 0.977 0.517 0.299 0.264 0.776 0.03  0.755 0.8   0.422 0.603 0.882 0.761
+ 0.879 0.735 0.582 0.157 0.86  0.981 0.107 0.591 0.917 0.32  0.902 0.602
+ 0.247 0.724 0.162 0.921 0.607 0.38  0.98  0.097 0.104 0.675 0.247 0.049
+ 0.234 0.73  0.992 0.386 0.425 0.097 0.34  0.885 0.021 0.758 0.151 0.776
+ 0.233 0.493 0.405 0.471 0.267 0.154 0.11  0.668 0.76  0.137 0.495 0.125
+ 0.009 0.487 0.3   0.996 0.3   0.611 0.905 0.503 0.852 0.806 0.823 0.291
+ 0.352 0.968 0.866 0.742]
+	Student response:
+[0.343 0.116 0.405 0.686 0.175 0.411 0.063 0.923 0.963 0.797 0.51  0.702
+ 0.303 0.727 0.551 0.966 0.905 0.525 0.678 0.842 0.656 0.157 0.202 0.379
+ 0.572 0.576 0.925 0.056 0.306 0.772 0.913 0.3   0.24  0.014 0.444 0.303
+ 0.943 0.643 0.455 0.915 0.861 0.976 0.072 0.095 0.647 0.362 0.232 0.898
+ 0.347 0.591 0.735 0.993 0.535 0.678 0.585 0.954 0.058 0.962 0.505 0.567
+ 0.687 0.057 0.739 0.555 0.174 0.099 0.515 0.333 0.548 0.636 0.642 0.045
+ 0.401 0.697 0.173 0.634 0.879 0.378 0.896 0.25  0.283 0.672 0.637 0.573
+ 0.625 0.438 0.572 0.936 0.831 0.475 0.143 0.983 0.835 0.849 0.954 0.327
+ 0.315 0.939 0.458 0.493]
+
+	_student_nn() failed: incorrect minimum distance
+	Correct response:
+3.203888624362725
+	Student response:
+3.728172726193745
+Score += 2
+
+Problem 5 (10 points):
+KNeighborsClassifier failed to predict correctly on a 20x5 dataset
+KNeighborsClassifier failed to predict correctly on a 20x10 dataset
+Score += 8
+
+Problem 6 (5 points):
+Score += 5
+
+Code Quality (5 points):
+You've got some unnecessary print statements tr code.
+Score += 4
+
+Total score: 24/50 = 48.0%
+
+-------------------------------------------------------------------------------
+
+10/31/20 14:57
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 5 (10 points):
+KNeighborsClassifier failed to predict correctly on a 10x5 dataset
+KNeighborsClassifier failed to predict correctly on a 10x10 dataset
+KNeighborsClassifier failed to predict correctly on a 100x10 dataset
+Score += 7
+
+Problem 6 (5 points):
+Score += 5
+
+Code Quality (5 points):
+Your query function is a little cramped. Throw in some blank lines/comments to section of different parts of the algorithm.
+Score += 4
+
+Total score: 46/50 = 92.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+

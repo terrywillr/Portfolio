@@ -1,0 +1,76 @@
+09/21/20 18:31
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (5 points):
+Score += 5
+
+Problem 4 (5 points):
+subplot 1 has incorrect x limits
+	Correct response: (0, 6.283185307179586)
+	Student response: (-0.3141592653589793, 6.5973445725385655)
+subplot 1 has incorrect y limits
+	Correct response: (-2, 2)
+	Student response: (-1.0998615404412626, 1.0998615404412626)
+subplot 2 has incorrect x limits
+	Correct response: (0, 6.283185307179586)
+	Student response: (-0.3141592653589793, 6.5973445725385655)
+subplot 2 has incorrect y limits
+	Correct response: (-2, 2)
+	Student response: (-1.0998615404412626, 1.0998615404412626)
+subplot 3 has incorrect x limits
+	Correct response: (0, 6.283185307179586)
+	Student response: (-0.3141592653589793, 6.5973445725385655)
+subplot 3 has incorrect y limits
+	Correct response: (-2, 2)
+	Student response: (-2.199723080882525, 2.199723080882525)
+Score += 4
+
+Problem 5 (15 points):
+missing a bin
+Score += 13
+
+Problem 6 (10 points):
+plotted the wrong function
+Score += 7
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 44/50 = 88.0%
+
+-------------------------------------------------------------------------------
+
+09/25/20 22:55
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (5 points):
+Score += 5
+
+Problem 4 (5 points):
+Score += 5
+
+Problem 5 (15 points):
+Score += 15
+
+Problem 6 (10 points):
+Score += 10
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 50/50 = 100.0%
+
+Excellent!
+
+-------------------------------------------------------------------------------
+

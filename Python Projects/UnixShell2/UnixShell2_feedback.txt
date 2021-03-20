@@ -1,0 +1,134 @@
+11/16/20 18:15
+
+shell2.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+11/16/20 18:32
+
+shell2.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+11/17/20 19:27
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Your response:
+['class_info.py', 'custom_test_driver.py', 'grader.py', 'base_test_driver.py']
+was not correct for grep(call, *.py)
+Score += 5
+
+Problem 4 (10 points):
+Your response:
+None
+was not correct for largest_files(10)
+Your response:
+None
+was not correct for largest_files(7)
+Score += 2
+
+Problem 5 (5 points):
+File '0906-13-00903.jpg' not found
+File 'hubble_image.jpg' not found
+File 'Optimal_Reentry_Spacecraft.pdf' not found
+Score += 0
+
+Problem 6 (5 points):
+NameError: name 'List' is not defined
+
+Problem 7 (5 points):
+File 'date_modified.txt' not found
+Score += 0
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 22/50 = 44.0%
+
+-------------------------------------------------------------------------------
+
+11/18/20 19:44
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Your response:
+['class_info.py', 'custom_test_driver.py', 'grader.py', 'base_test_driver.py']
+was not correct for grep(call, *.py)
+Score += 5
+
+Problem 4 (10 points):
+FileNotFoundError: [Errno 2] No such file or directory: 'find -type f -print0 | xargs -0 ls -s': 'find -type f -print0 | xargs -0 ls -s'
+
+Problem 5 (5 points):
+Score += 5
+
+Problem 6 (5 points):
+Score += 5
+
+Problem 7 (5 points):
+File content did not match!
+Score += 0
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 30/50 = 60.0%
+
+-------------------------------------------------------------------------------
+
+11/20/20 23:11
+
+TabError while loading 'shell2.py': inconsistent use of tabs and spaces in indentation (shell2.py, line 29)
+
+-------------------------------------------------------------------------------
+
+12/21/20 01:01
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Your response:
+['class_info.py', 'custom_test_driver.py', 'grader.py', 'old_grader.py', 'base_test_driver.py']
+was not correct for grep(call, *.py)
+Score += 5
+
+Problem 4 (10 points):
+Your response:
+['./Photos/0906-13-00903.jpg', './Photos/Optimal_Reentry_Spacecraft.pdf', './Files/Mar/docs/data.txt', './Photos/IMG_2044.jpg', './Photos/IMG_2679.jpg', './Photos/IMG_1501.jpg', './Photos/IMG_2182.jpg', './Photos/img_1987.jpg', './Photos/IMG_1510.jpg', './Photos/IMG_2464.jpg']
+was not correct for largest_files(10)
+Your response:
+['./Photos/0906-13-00903.jpg', './Photos/Optimal_Reentry_Spacecraft.pdf', './Files/Mar/docs/data.txt', './Photos/IMG_2044.jpg', './Photos/IMG_2679.jpg', './Photos/IMG_1501.jpg', './Photos/IMG_2182.jpg']
+was not correct for largest_files(7)
+Score += 2
+
+Problem 5 (5 points):
+Score += 5
+
+Problem 6 (5 points):
+Score += 5
+
+Problem 7 (5 points):
+Score += 5
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 37/50 = 74.0%
+
+-------------------------------------------------------------------------------
+

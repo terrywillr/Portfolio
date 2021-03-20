@@ -1,0 +1,39 @@
+03/09/21 11:34
+
+Problems 1-5 (35 points):
+Score += 35
+
+Problem 6 (10 points):
+Score += 10
+
+Code Quality (5 points):
+No comments
+Score += 0
+
+Total score: 45/50 = 90.0%
+
+Great job!
+
+
+Comments:
+	Lab due Thursday!
+
+-------------------------------------------------------------------------------
+
+03/12/21 22:07
+
+Problems 1-5 (35 points):
+Score += 35
+
+Problem 6 (10 points):
+Score += 10
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 50/50 = 100.0%
+
+Excellent!
+
+-------------------------------------------------------------------------------
+

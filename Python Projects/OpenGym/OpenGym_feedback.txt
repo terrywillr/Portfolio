@@ -1,0 +1,57 @@
+02/23/21 09:34
+
+Problem 1 (5 points):
+Score += 0
+
+Problem 2 (5 points):
+Score += 0
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+Score += 15
+
+Problem 5 (10 points):
+Score += 0
+
+Code Quality (5 points):
+No comments
+Score += 0
+
+Total score: 25/50 = 50.0%
+
+
+Comments:
+	Lab due Thursday
+
+-------------------------------------------------------------------------------
+
+02/26/21 21:19
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 0
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+Score += 15
+
+Problem 5 (10 points):
+Score += 0
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 35/50 = 70.0%
+
+
+Comments:
+	Good job!
+
+-------------------------------------------------------------------------------
+

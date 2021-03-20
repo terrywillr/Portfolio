@@ -1,0 +1,11 @@
+k, i, p = 999, 1, 0
+for i in range(2)
+	pass
+while k > i
+	i *= 2
+	p += 1
+	if k != 999
+		print("k should not have changed")
+	else
+		pass
+print(p)

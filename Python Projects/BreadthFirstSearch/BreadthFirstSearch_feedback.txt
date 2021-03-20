@@ -1,0 +1,66 @@
+11/02/20 19:44
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Graph.shortest_path('A', G) failed
+	Graph: {'A': {'F', 'B'}, 'B': {'C', 'A'}, 'C': {'D', 'B'}, 'D': {'C', 'E'}, 'E': {'F', 'D'}, 'F': {'G', 'E', 'A'}, 'G': {'F', 'A'}}
+	Correct response: "['A', 'F', 'G']"
+	Student response: "['A', 'F', 'B', 'G']"
+Graph.shortest_path('A', N) failed
+	Graph: {'A': {'C', 'B'}, 'B': {'D', 'E', 'A'}, 'C': {'F', 'G', 'A'}, 'D': {'I', 'B', 'H'}, 'E': {'K', 'J', 'B'}, 'F': {'M', 'C', 'L'}, 'G': {'N', 'C', 'O'}, 'H': {'D'}, 'I': {'D'}, 'J': {'E'}, 'K': {'E'}, 'L': {'F'}, 'M': {'F'}, 'N': {'G'}, 'O': {'G'}}
+	Correct response: "['A', 'C', 'G', 'N']"
+	Student response: "['A', 'C', 'B', 'F', 'G', 'D', 'E', 'N']"
+Graph.shortest_path('A', L) failed
+	Graph: {'A': {'B'}, 'B': {'C', 'D'}, 'C': {'D', 'B'}, 'D': {'B', 'E'}, 'E': {'F', 'G'}, 'F': {'H', 'E'}, 'H': {'F'}, 'G': {'I', 'J', 'E'}, 'I': {'J', 'G'}, 'J': {'K', 'J', 'G'}, 'K': {'J', 'L'}, 'L': {'K'}}
+	Correct response: "['A', 'B', 'D', 'E', 'G', 'J', 'K', 'L']"
+	Student response: "['A', 'B', 'D', 'E', 'F', 'G', 'J', 'K', 'L']"
+Score += 4
+
+Problem 5 (10 points):
+Score += 10
+
+Problem 6 (10 points):
+It looks like you are miscalculating path length by a factor 2 and then you may have to add or subtract 1.
+MovieGraph.average_number('Kevin Bacon') failed
+Score += 1
+
+Code Quality (5 points):
+A few comments and/or blank lines would bring this code from good to great. I try not to have more than 5ish lines per blank-line-delimited section. That keeps everything in managable chunks.
+Score += 4
+
+Total score: 34/50 = 68.0%
+
+-------------------------------------------------------------------------------
+
+11/06/20 23:09
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 5 (10 points):
+Score += 10
+
+Problem 6 (10 points):
+MovieGraph.average_number('Kevin Bacon') failed
+Score += 5
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 45/50 = 90.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+

@@ -1,0 +1,70 @@
+09/15/20 17:41
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (10 points):
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+Score += 0
+
+Problem 5 (15 points):
+You are printing out all of your functions when the file is run. Only shut_the_box should run
+Score += 12
+
+Code Quality (5 points):
+docstring should be immediately after function definition
+Score += 4
+
+Total score: 36/50 = 72.0%
+
+-------------------------------------------------------------------------------
+
+09/18/20 20:05
+
+IndexError while loading 'standard_library.py': list index out of range
+
+-------------------------------------------------------------------------------
+
+09/19/20 13:51
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 5 (15 points):
+Score += 15
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 50/50 = 100.0%
+
+Excellent!
+
+-------------------------------------------------------------------------------
+
