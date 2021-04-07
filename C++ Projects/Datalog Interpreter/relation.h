@@ -11,12 +11,13 @@ public:
 	~Relation() {}
 
 	void setScheme(Scheme s);
-	void addTuple(Tuple t);
+	bool addTuple(Tuple t);
 	std::string toString();
 	Relation select(int pos, std::string value);
 	Relation select(int pos1, int pos2);
 	Relation project(std::vector<int> pos);
-
+	void addTuples(Relation tups);
+	int getSize();
 	std::set<Tuple> tupleList;
 	Scheme myScheme;
 };

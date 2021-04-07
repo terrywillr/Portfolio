@@ -19,5 +19,15 @@ public:
 		}
 		return output;
 	}
+
+	int getSize()
+	{
+		int size = 0;
+		for (std::map<std::string, Relation>::iterator it = relations.begin(); it != relations.end(); ++it)
+		{
+			size += it->second.getSize();
+		}
+		return size;
+	}
 };
 #endif

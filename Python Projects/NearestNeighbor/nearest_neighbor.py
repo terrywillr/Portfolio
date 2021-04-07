@@ -220,6 +220,7 @@ def prob6(n_neighbors, filename="mnist_subset.npz"):
     Returns:
         (float): the classification accuracy.
     """
+    print("y")
     data = np.load(filename)
     X_train = data["X_train"].astype(np.float)
     y_train = data["y_train"]
@@ -235,6 +236,7 @@ def prob6(n_neighbors, filename="mnist_subset.npz"):
         if prediction == y_test[index]:
             num_correct += 1
         index += 1
+        
 
 
     return num_correct / len(y_test)
@@ -242,5 +244,5 @@ def prob6(n_neighbors, filename="mnist_subset.npz"):
 
 
 
-"""if __name__ == "__main__":
-    print(prob6(4))"""
+if __name__ == "__main__":
+    prob6(4)

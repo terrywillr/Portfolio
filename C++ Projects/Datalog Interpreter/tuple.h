@@ -7,7 +7,7 @@ class Tuple : public std::vector<std::string>
 public:
 	Tuple(Scheme s)
 	{
-		push_back(s.name);
+		//push_back(s.name);
 		for (size_t i = 0; i < s.parameterList.size(); i++)
 		{
 			push_back(s.parameterList[i]);

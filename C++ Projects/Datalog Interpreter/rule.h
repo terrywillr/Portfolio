@@ -31,7 +31,7 @@ public:
 
 		return output;
 	}
-private:
+
 	Predicate headPredicate;
 	std::vector<Predicate> predList;
 };
