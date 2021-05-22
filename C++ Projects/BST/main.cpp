@@ -107,6 +107,20 @@ int main(int argc, char* argv[])
 				else out << "not found" << endl;
 			}
 		}
+		if (item1 == "invert")
+		{
+			out << line << " ";
+			if (isInt)
+			{
+				if (int_tree.invert_tree()) out << "inverted" << endl;
+				else out << "tree empty" << endl;
+			}
+			else
+			{
+				if (string_tree.invert_tree()) out << "inverted" << endl;
+				else out << "tree empty" << endl;
+			}
+		}
 		
 	}
 	

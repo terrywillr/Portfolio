@@ -59,6 +59,9 @@ public:
 	{
 		return out << tree.toString();
 	}
+
+	bool invert_tree();
+	void invert(Node<T>* node);
 private:
 	Node<T>* root_;
 	size_t size_ = 0;
@@ -133,4 +136,34 @@ bool BST<T>::outLevel(Node<T>* root, int level, stringstream& out) const
 	bool right = outLevel(root->right, level - 1, out);
 	if ((level == 2) && root->left && !root->right) out << " _";
 	return left || right;
+}
+
+
+template<typename T>
+bool BST<T>::invert_tree()
+{
+	if (root_ == NULL) return false;
+	else
+	{
+		invert(root_);
+		return true;
+	}
+}
+
+template<typename T>
+void BST<T>::invert(Node<T>* node)
+{
+	if (node == NULL) return;
+	else
+	{
+		Node<T>* temp;
+		invert(node->left);
+		invert(node->right);
+
+		temp = node->left;
+		node->left = node->right;
+		node->right = temp;
+
+		return;
+	}
 }
